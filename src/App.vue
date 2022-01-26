@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="logo" alt="Vue logo" src="./assets/boolean.jpg">
+    <Hero />
+    <Titolo />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Titolo from './components/primaApp.vue'
+import Hero from './components/Hero.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Titolo,
+    Hero,
   }
 }
 </script>
@@ -25,4 +28,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.logo{
+  height: 150px;
+}
+
 </style>
