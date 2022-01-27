@@ -18,17 +18,19 @@ export default {
 <style scoped >
 .hero {
   width: 700px;
+  height: 500px;
   margin: 0 auto;
-  background-color:#00e064;
+  background:url(https://www.popsci.com/uploads/2020/06/05/3NIEQB3SFVCMNHH6MHZ42FO6PA.jpg?auto=webp)
 }
 
 h1{
   color: RGB(0, 20, 52);
   text-align: center;
+  padding-top: 20% ;
 }
 
 p{
-  color: #2c3d34;
+  color: #e7e7e7;
 }
 
 </style>
